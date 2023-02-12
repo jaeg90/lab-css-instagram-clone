@@ -4,7 +4,37 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* Global configuration */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 100px;
+}
+
+/* body {
+  background-color: #1c5380;
+  background-size: 10px;
+  background-repeat: no-repeat;
+} */
+
+.container-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+/*** Header ***/
+
+header img {
+  width: 25%;
 }
