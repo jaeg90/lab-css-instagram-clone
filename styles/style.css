@@ -16,8 +16,12 @@ img {
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 100px;
+
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  width: 1080px;
+  padding-top: 100px;
+  margin: 0 auto;
 }
 
 /* body {
@@ -33,8 +37,90 @@ body {
   gap: 50px;
 }
 
+/*** Smarthphone image ***/
+.smarthphones {
+  width: 80%;
+}
+
 /*** Header ***/
 
-header img {
-  width: 25%;
+.logo-img {
+  width: 60%;
+}
+
+.home-img {
+  width: 25px;
+  padding-top: 2px;
+}
+
+.container-row-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #1c5380;
+  border: solid 1px #06365f;
+  border-radius: 3px;
+  color: white;
+}
+
+/*** Main ***/
+main {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 40px;
+  height: 500px;
+}
+
+main h1 {
+  font-size: 2rem;
+  width: 58%;
+  font-weight: 700;
+  color: #1c5380;
+  padding-bottom: 20px;
+}
+
+main p span {
+  font-weight: 700;
+}
+main p {
+  line-height: 1.7;
+  padding-bottom: 15px;
+}
+
+.container-row-stores {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 25px;
+  width: 50%;
+  padding-top: 25px;
+}
+
+/*** Footer ***/
+.container-row-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+footer ul li {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #1c5380;
+}
+footer ul li:last-child {
+  color: gray;
 }
